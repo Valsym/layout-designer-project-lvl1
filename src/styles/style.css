@@ -11,15 +11,26 @@
     --blue: #1085c5;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../assets/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url('../assets/fonts/Neucha-Regular.ttf');
+}
+
 html { 
     color: var(--dark);
-    font: 16px/1.6em OpenSans-serif;
+    font: 16px/1.6em 'Open Sans' sans-serif;
 
     background: var(--white));
 }
 
 h1, h2, h3 {
     line-height: 1.2em;
+    font-family: 'Neucha';
 }
 
 h1 {
