@@ -1,0 +1,58 @@
+/** CSS STYLE **/
+:root {
+    --white: #fff;
+    --trans-white: #d7ccc0;
+    --light: #f5f4f0;
+    --main: #fe8a02;
+    --main-dark: #42413c;
+    --dark: #2a2626;
+    --trans-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
+html { 
+    color: var(--dark);
+    font: 16px/1.6em OpenSans-serif;
+
+    background: var(--white));
+}
+
+h1, h2, h3 {
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size:34px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 1100px;
+    margin: 100px 0;
+    text-align: center
+}
+
+main {
+    max-width: 1100px;
+    margin: 100px 0;
+    text-align: center
+}
+
+footer {
+    max-width: 1100px;
+    margin: 100px 0;
+    text-align: center
+}
