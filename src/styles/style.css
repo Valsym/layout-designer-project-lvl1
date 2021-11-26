@@ -25,7 +25,7 @@ html {
     color: var(--dark);
     font: 16px/1.6em 'Open Sans', sans-serif;
 
-    background: var(--white));
+    background: var(--white);
 }
 
 h1, h2, h3 {
@@ -86,8 +86,9 @@ header > img {
 }
 
 header > article {
-    /*display: flex;
-    justify-content: center;*/
+    display: flex;
+    margin-left: 165px;
+    margin-top: 181px;
 }
 
 header > article > p {
@@ -98,26 +99,19 @@ header > article > p {
 }
 
 .block-one {
-    /*margin-left: 165px;*/
+    margin-left: 0;
     /*padding-top: 4px;/*543px;*/
 }
 
 .block-two {
     margin-left: 30px;/*735px;*/
-    /*margin-top: 181px;/*539px;*/
+    /*margin-top: 181px;539px;*/
     padding-top: 4px;/*543px;*/
-}
-}
-
-header > article {
-    display: flex;
-    margin-left: 165px;
-    margin-top: 181px;
 }
 
 .button {
     /*position: absolute;*/
-    maggin-left: 735px;
+    margin-left: 735px;
     margin-top: 40px;/*765px;*/
     background-color: var(--main);
     border: none;
