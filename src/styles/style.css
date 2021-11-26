@@ -110,6 +110,9 @@ header > article:first-child {
 }
 
 .button {
+    position: absolute;
+    left: 735px;
+    top: 765px;
     background-color: var(--main);
     border: none;
     color:var(--white);
@@ -118,7 +121,7 @@ header > article:first-child {
     text-decoration: none;
     display: inline-block;
     font-weight: 700;
-    margin: 40px 2557x 100px auto;
+    /*margin: 40px 2557x 100px auto;*/
     cursor: pointer;
 }
 
