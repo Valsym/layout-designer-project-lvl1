@@ -35,6 +35,11 @@ h1, h2, h3 {
 
 h1 {
     font-size: 72px;
+    color: var(--dark);
+}
+
+h1::first-line {
+    color: var(--main);
 }
 
 h2 {
@@ -54,6 +59,46 @@ header {
     max-width: 1100px;
     margin: 100px 0;
     text-align: center
+}
+
+header::before {
+    content: "";
+    background-image: url(../../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+header > img {
+    height: 525px;
+    margin-top: 55px;
+    margin-right: -270px;
+}
+
+header > article {
+    display: flex;
+    justify-content: center;
+}
+
+header > article > p {
+    display: block;
+}
+
+header > article::first-child {
+    margin-right: 20px;
+}
+
+.button {
+    background-color: var(--main);
+    border: none;
+    color:var(--white);
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 700;
+    margin: 40px 2557x 100px auto;
+    cursor: pointer;
 }
 
 main {
