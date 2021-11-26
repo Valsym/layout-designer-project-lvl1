@@ -34,16 +34,16 @@ h1, h2, h3 {
 }
 
 h1 {
-    position: absolute;
+    /*position: absolute;*/
     font-size: 72px; 
     color: var(--main);
     text-align: left;
-    left: 165px;
-    top: 55px;
-    z-index: 1;
+    margin-left: 165px;
+    margin-top: 55px;
+    /*z-index: 1;*/
 }
 
-h1:last-child(3) {
+h1::last-line {
     color: var(--dark);
 }
 
@@ -63,21 +63,17 @@ body {
 header {
     /*position: relative;*/
     max-width: 1100px;
-    height: 914px;
-    background-image: url(../../images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.1;
-    /*margin: 100px 0;
+    /*height: 914px;
+    margin: 100px 0;
     text-align: center*/
 }
 
-header::before {
+.header::before {
     content: "";
     background-image: url(../../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
+    opacity: 0.1;
 }
 
 header > img {
@@ -94,30 +90,30 @@ header > article {
 }
 
 header > article > p {
-    position: absolute;
+    p/*osition: absolute;*/
     display: block;
     text-align: left;
     width: 540px;
 }
 
 .block-one {
-    left: 165px;
-    top: 543px;
+    margin-left: 165px;
+    margin-top: 185px;/*543px;*/
 }
 
 .block-two {
-    left: 735px;
-    top: 539px;
+    margin-left: 30px;/*735px;*/
+    margin-top: 181px;/*539px;*/
 }
 
 header > article:first-child {
-    margin-right: 20px;
+    /*margin-right: 20px;*/
 }
 
 .button {
-    position: absolute;
-    left: 735px;
-    top: 765px;
+    /*position: absolute;*/
+    maggin-left: 735px;
+    margin-top: 40px;/*765px;*/
     background-color: var(--main);
     border: none;
     color:var(--white);
