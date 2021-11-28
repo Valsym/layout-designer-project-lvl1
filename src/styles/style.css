@@ -55,12 +55,15 @@ h3 {
 }
 
 header {
-    /*position: relative;
-    z-index: 1;*/
-    max-width: 1100px;
-    margin: 0 auto;
+    position: relative;
+    z-index: 1;
     padding-top: 100px;
     background-color: var(--light);
+}
+
+header container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 header::before {
@@ -136,6 +139,7 @@ header > article > p {
     padding: 12px 24px;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     display: inline-block;
     font-weight: 700;
     /*margin: 40px 2557x 100px auto;*/
