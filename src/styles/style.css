@@ -64,7 +64,7 @@ h3 {
 header {
     position: relative;
     z-index: 1;
-    padding: 100px 0;
+    padding-top: 100px;
     background-color: var(--light);
 }
 
@@ -138,8 +138,8 @@ header container > article > div {
 }
 
 .button {
-    /*position: absolute;*/
-    margin-left: 735px;
+    /*position: absolute;
+    margin-left: 735px;*/
     margin-top: 40px;/*765px;*/
     background-color: var(--main);
     border: none;
@@ -151,6 +151,7 @@ header container > article > div {
     display: inline-block;
     font-weight: 700;
     /*margin: 40px 255px 100px auto;*/
+    margin-bottom: 100px;
     cursor: pointer;
 }
 
