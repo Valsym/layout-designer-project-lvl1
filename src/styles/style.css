@@ -1,5 +1,5 @@
 /** CSS STYLE **/
-*{
+* {
     box-sizing: border-box;
 }
 :root {
@@ -15,28 +15,34 @@
 }
 
 @font-face {
+    font-weight: 400;
     font-family: 'Open Sans';
     src: url('../assets/fonts/OpenSans-Regular.ttf');
 }
 
 @font-face {
+    font-weight: 400;
     font-family: 'Neucha';
     src: url('../assets/fonts/Neucha-Regular.ttf');
 }
 
 html { 
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
     color: var(--dark);
     font: 16px/1.6em 'Open Sans', sans-serif;
 
     background: var(--white);
 }
 
-body {
+h1, h2, h3 {
     margin: 0;
     padding: 0;
-}
 
-h1, h2, h3 {
     line-height: 1.2em;
     font-family: 'Neucha', cursive;
     font-weight: 400;
