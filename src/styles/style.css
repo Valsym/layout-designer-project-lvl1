@@ -114,11 +114,11 @@ header container > img {
 header container > article {
     display: flex;
     justify-content: space-between;
-    margin-left: 165px;
+    /*margin-left: 165px;*/
     margin-top: 181px;
 }
 
-header container > article > p {
+header container > article > div {
     /*position: absolute;
     display: block;*/
     flex-basis: 50%;
@@ -150,7 +150,7 @@ header container > article > p {
     text-transform: uppercase;
     display: inline-block;
     font-weight: 700;
-    /*margin: 40px 2557x 100px auto;*/
+    /*margin: 40px 255px 100px auto;*/
     cursor: pointer;
 }
 
