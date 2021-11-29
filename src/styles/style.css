@@ -166,10 +166,10 @@ header container > article > div {
 
 main {
     display: block;
-    max-width: 1100px;
+    /*max-width: 1100px;
     margin: 0 auto;
     text-align: center;
-    /*margin: 0 auto;*/
+    margin: 0 auto;*/
 }
 
 .section2 {
@@ -226,7 +226,7 @@ main {
 .item {
     width: 350px;
     background: var(--light);
-    /*margin: 10px;*/
+    margin-top: 20px;
     padding: 24px;
 }
 
