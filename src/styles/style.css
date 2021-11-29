@@ -266,6 +266,7 @@ main {
 .text {
   color: var(--dark);
 }
+
 .item:hover .text {
   color: var(--white);
 }  
