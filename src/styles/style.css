@@ -162,12 +162,12 @@ header container > article > div {
 }
 
 .button:hover {
-    background-color: var(-darkOrange);
+    background: var(--darkOrange);
 }
 
-.block-two a:hover {
+/*.block-two a:hover {
     background-color: var(-darkOrange);
-}
+}*/
 
 main {
     display: block;
