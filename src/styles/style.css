@@ -162,8 +162,12 @@ header container > article > div {
 }
 
 .button:hover {
-    color: var(-darkOrange);
+    background-color: var(-darkOrange);
 }
+
+/*.block-two a:hover {
+    background-color: var(-darkOrange);
+}*/
 
 main {
     display: block;
@@ -276,7 +280,7 @@ main {
   color: var(--white);
 }
 
-.section4{
+.section4 {
     padding-bottom: 100px;
   }
   
@@ -328,6 +332,66 @@ max-width: 502px;
 font: 16px/1.6 'Open Sans';
 font-weight: 400;
 color: var(--dark);
+}
+
+.section5 {
+padding-bottom: 100px;
+background: var(--brown);
+}
+
+.img5 {
+width: 578px;
+height: 434px;
+margin-right: 30px;
+background: var(--dark);
+}
+
+.s5-left-col {
+display: block;
+max-width: 492px;
+}
+
+.s5-left-col p:first-child {
+font: 24px/1.2 'Neucha', cursive;
+text-transform: uppercase;
+color: var(--transWhite);
+}
+
+.s5-left-col h2 {
+font-weight: 400;
+color: var(--white);
+}
+
+.s5-left-col p:last-child {
+font: 34px/1.2 'Neucha', cursive;
+color: var(--white);
+}
+
+.s5-new-h2 {
+margin: 100px auto 20px auto;
+padding: 5px 0 5px 10px;
+font: 14px/1.2 'Open Sans';
+font-weight: 700;
+color: var(--brown);
+background: var(--white);
+text-transform: uppercase;
+}
+
+.s5d-left-col {
+display: block;
+max-width: 502px;
+margin-right: 30px;
+}
+
+.s5-two-col {
+display: block;
+max-width: 502px;
+}
+
+.s5d-left-col p, .s5-two-col p {
+font: 16px/1.6 'Open Sans';
+font-weight: 400;
+color: var(--white);
 }
 
 footer {
