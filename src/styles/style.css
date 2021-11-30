@@ -453,15 +453,16 @@ form {
     right: 0px;
     width: 70px;
     height: 50px;
+    background: var(--main);
+    border: none;
+    cursor: pointer;
 }
   
 .f-btn:before {
     content: "";
-   /* width: 70px;
-    height: 50px;*/
     background-image: url(../../images/send.svg);
-      background-repeat: no-repeat;
-      background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
   
 .down {
