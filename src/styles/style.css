@@ -296,6 +296,11 @@ main {
     max-width: 492px;
 }
 
+.right-col h2 {
+    color: var(--dark);
+
+}
+
 .right-col p:first-child {
     font: 24px/1.2 'Neucha', cursive;
     text-transform: uppercase;
