@@ -80,7 +80,7 @@ p {
 
 container {
     display: block;
-    max-width: 1100px;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
@@ -116,8 +116,8 @@ header container > h1 span:nth-child(2) {
 header container > img {
     position: absolute;
     height: 525px;
-    top: 55px;
-    right: -270px;
+    top: 57px;
+    right: -120px;
     z-index: -1;
 }
 
@@ -190,7 +190,7 @@ main {
     font: 16px/1.6 'Open Sans', sans-serif;
     color: var(--dark);
     margin-top: 30px;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 
 .section2dop div {
