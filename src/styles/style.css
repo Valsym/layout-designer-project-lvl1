@@ -94,7 +94,7 @@ container {
     width: 100%;
     height: 100%;
     content: "";
-    background-image: url(../../images/background.png);
+    background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.1;
@@ -165,10 +165,6 @@ header container > article > div {
     background: var(--darkOrange);
 }
 
-/*.block-two a:hover {
-    background-color: var(-darkOrange);
-}*/
-
 main {
     display: block;
     /*max-width: 1100px;
@@ -187,7 +183,7 @@ main {
 }
 
 .section2dop > h2 > span:nth-child(1) {
-        color: var(--dark);
+    color: var(--dark);
 }
 
 .section2dop p {
@@ -217,10 +213,10 @@ main {
 }
 
 .flex-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
 
 .item1 {
     max-width: 350px;
@@ -259,7 +255,7 @@ main {
 }
 
 .title {
-    /*font: 18px/1.2  'Neucha', cursive;*/
+  /*font: 18px/1.2  'Neucha', cursive;*/
   margin-bottom: 16px;
   color: var(--main);
 }
@@ -395,93 +391,84 @@ footer container {
     text-align: center;*/
     margin-top: 100px;
     background: var(--mainDark);
-    
-  }
+}
   
-  .f-flex {
+.f-flex {
     display: flex;
     justify-content: space-between;
     flex-basis: 50%;
   
     flex-wrap: wrap;
     align-items: center;
-  }
+}
   
-  .f-left h3 {
+.f-left h3 {
     padding: 55px;
     color: var(--white);
-  }
+}
   
-  .f-right {
+.f-right {
     flex-basis: 485px;
-  }
-  .f-right p {
+}
+
+.f-right p {
     font: 18px/1.6 'Open Sans';
     font-weight: 400;
     color: var(--white);
-  }
+}
   
-  .f-right p:last-child {
+.f-right p:last-child {
     font: 12px/1.6 'Open Sans';
     font-weight: 400;
-  }
+}
   
-  .f-right p:last-child a {
+.f-right p:last-child a {
     text-decoration: none;
     color: var(--white);
-  }
+}
   
-  form {
-    /*position: relative;
-    width: 477px;
-    heigth: 50px;
-    margin: 15px;*/
-  }
-  
-  .email {
+.email {
     margin-bottom: 9px;
     font: 18px/1.6 'Open Sans', sans-serif;;
     font-weight: 400;
     color: var(--white);
-  }
+}
   
-  .flex-email {
+.flex-email {
     display: flex;
     padding-right: 55px;
     width: 100%;
-  }
+}
   
-  .form-input  {
+.form-input  {
     padding: 15px;
     width: 100%;
     height: 50px;
     border: none;
     color: var(--dark);
     background: var(--white);
-  }
+}
   
-  .f-btn {
+.f-btn {
     position: relative;  
     width: 70px;
     height: 50px;
     border: none;
     background-color: var(--main);
     cursor: pointer;
-  }
+}
   
-  .f-btn:before {
+.f-btn:before {
     position: absolute;
     top: 13px;
     right: 0;
     bottom: 0;
     left: 18px;
     content: "";
-    /* width: 70px;
-    height: 50px;*/
-    background-image: url(../../images/send.svg);
+    background-image: url(../images/send.svg);
     background-repeat: no-repeat;
     /*background-size: cover;*/
-  }
+}
   
 .down {
     text-align: center;
