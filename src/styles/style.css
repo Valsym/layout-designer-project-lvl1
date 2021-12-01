@@ -217,8 +217,13 @@ main {
 .flex-container {
     display: flex;
     justify-content: space-between;
+}
+
+.nav-flex-container {
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    }
+}
 
 .item1 {
     max-width: 350px;
@@ -285,23 +290,24 @@ main {
 .img-ikea {
     width: 578px;
     height: 434px;
-    margin-right: 30px;
-    /*background: var(--dark);*/
+    /*margin-right: 30px;
+    background: var(--dark);*/
 }
 
 .right-col {
     display: block;
-    max-width: 492px;
+    /*max-width: 492px;*/
+    padding-left: 30px;
 }
 
 .right-col h2 {
     color: var(--dark);
-
+    margin-bottom: 30px;
 }
 
 .right-col p:first-child {
     font: 24px/1.2 'Neucha', cursive;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: var(--transDark);
 }
 
@@ -322,15 +328,19 @@ main {
 
 .left-col, .two-col {
     display: block;
-    max-width: 502px;
+    flex-basis: 50%;
     font: 16px/1.6 'Open Sans';
     font-weight: 400;
     color: var(--dark);
 }
 
 .left-col {
-    margin-right: 30px;
+    padding-right: 10px;
 }
+
+.two-col {
+    padding-left: 30px;
+}    
 
 .section5 {
     padding-bottom: 100px;
@@ -340,24 +350,26 @@ main {
 .img5 {
     width: 578px;
     height: 434px;
-    margin-right: 30px;
-    background: var(--dark);
+    /*margin-right: 30px;
+    background: var(--dark);*/
 }
 
 .s5-left-col {
     display: block;
     max-width: 492px;
+    padding-right: 5px;
 }
 
 .s5-left-col p:first-child {
     font: 24px/1.2 'Neucha', cursive;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: var(--transWhite);
 }
 
 .s5-left-col h2 {
     font-weight: 400;
     color: var(--white);
+    margin-bottom: 30px;
 }
 
 .s5-left-col p:last-child {
@@ -376,41 +388,49 @@ main {
 }
 
 .s5-two-col, .s5d-left-col {
-    display: block;
-    max-width: 502px;
+    /*display: block;
+    max-width: 502px;*/
+    flex-basis: 50%;
     font: 16px/1.6 'Open Sans';
     font-weight: 400;
     color: var(--white);
 }
 
-.s5d-left-col {
-    margin-right: 30px;
+.s5-two-col {
+    padding-left: 10px;
 }
+
+/*.s5d-left-col {
+    margin-right: 30px;
+}*/
 
 footer container {
     /*max-width: 1100px;
     margin: 100px 0;
     text-align: center;*/
     margin-top: 100px;
-    background: var(--mainDark);
 }
   
 .f-flex {
     display: flex;
     justify-content: space-between;
-    flex-basis: 50%;
-  
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     align-items: center;
+    background: var(--mainDark);
 }
   
 .f-left h3 {
     padding: 55px;
     color: var(--white);
 }
+
+.f-left {
+    flex-basis: 50%;
+}
   
 .f-right {
-    flex-basis: 485px;
+    flex-basis: 50%;
+    padding-left: 30px;
 }
 
 .f-right p {
@@ -430,7 +450,7 @@ footer container {
 }
   
 .email {
-    margin-bottom: 9px;
+    /*margin-bottom: 9px;*/
     font: 18px/1.6 'Open Sans', sans-serif;;
     font-weight: 400;
     color: var(--white);
@@ -439,6 +459,7 @@ footer container {
 .flex-email {
     display: flex;
     padding-right: 55px;
+    padding-top: 9px;
     width: 100%;
 }
   
